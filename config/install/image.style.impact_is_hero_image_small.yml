@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.impact_crop_hero_image_small
+  module:
+    - crop
+name: impact_is_hero_image_small
+label: 'Hero image small'
+effects:
+  3c951a6a-34c3-4c09-aea6-7a5bfd77bb1b:
+    uuid: 3c951a6a-34c3-4c09-aea6-7a5bfd77bb1b
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: impact_crop_hero_image_small
+  0db25114-67ff-4d3d-9f81-b73b2040e51a:
+    uuid: 0db25114-67ff-4d3d-9f81-b73b2040e51a
+    id: image_scale
+    weight: 2
+    data:
+      width: 480
+      height: 300
+      upscale: false

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Hero image extra small'
+id: impact_crop_hero_image_xsmall
+description: 'Crop for hero image extra small.'
+aspect_ratio: '400:250'
+soft_limit_width: 400
+soft_limit_height: 250
+hard_limit_width: 400
+hard_limit_height: 250

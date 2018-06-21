@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.impact_crop_hero_image_large
+  module:
+    - crop
+name: impact_is_hero_image_large
+label: 'Hero image large'
+effects:
+  aa6ae582-3b40-4769-8078-c58f6b43b669:
+    uuid: aa6ae582-3b40-4769-8078-c58f6b43b669
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: impact_crop_hero_image_large
+  fed852fb-b3b4-4feb-bfdd-1b7b0e045447:
+    uuid: fed852fb-b3b4-4feb-bfdd-1b7b0e045447
+    id: image_scale
+    weight: 2
+    data:
+      width: 1024
+      height: 400
+      upscale: false

@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_impact_hero_image
+    - media.type.hero_image
+    - node.type.impact_web_page
+id: node.impact_web_page.field_impact_hero_image
+field_name: field_impact_hero_image
+entity_type: node
+bundle: impact_web_page
+label: 'Hero image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      hero_image: hero_image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

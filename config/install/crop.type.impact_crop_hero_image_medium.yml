@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Hero image medium'
+id: impact_crop_hero_image_medium
+description: 'Crop for hero image medium.'
+aspect_ratio: '769:350'
+soft_limit_width: 769
+soft_limit_height: 350
+hard_limit_width: 769
+hard_limit_height: 350

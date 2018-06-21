@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+label: 'Hero image large'
+id: impact_crop_hero_image_large
+description: 'Crop for hero image large.'
+aspect_ratio: '1024:400'
+soft_limit_width: 1024
+soft_limit_height: 400
+hard_limit_width: 1024
+hard_limit_height: 400

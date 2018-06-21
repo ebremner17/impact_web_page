@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.impact_is_hero_image_large
+    - image.style.impact_is_hero_image_medium
+    - image.style.impact_is_hero_image_small
+    - image.style.impact_is_hero_image_xlarge
+    - image.style.impact_is_hero_image_xsmall
+  theme:
+    - impact
+id: impact_ris_hero_image
+label: 'Hero image'
+image_style_mappings:
+  -
+    breakpoint_id: impact.xlarge
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: impact_is_hero_image_xlarge
+  -
+    breakpoint_id: impact.large
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: impact_is_hero_image_large
+  -
+    breakpoint_id: impact.medium
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: impact_is_hero_image_medium
+  -
+    breakpoint_id: impact.small
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: impact_is_hero_image_small
+  -
+    breakpoint_id: impact.xsmall
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: impact_is_hero_image_xsmall
+breakpoint_group: impact
+fallback_image_style: impact_is_hero_image_large
