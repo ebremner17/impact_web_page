@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_impact_hero_image_desc
+    - paragraphs.paragraphs_type.hero_image
+id: paragraph.hero_image.field_impact_hero_image_desc
+field_name: field_impact_hero_image_desc
+entity_type: paragraph
+bundle: hero_image
+label: 'Image description'
+description: 'Enter a description for the hero image.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

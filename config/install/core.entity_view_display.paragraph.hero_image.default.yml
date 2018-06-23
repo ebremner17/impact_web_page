@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_image.field_impact_hero_image
+    - field.field.paragraph.hero_image.field_impact_hero_image_desc
+    - paragraphs.paragraphs_type.hero_image
+id: paragraph.hero_image.default
+targetEntityType: paragraph
+bundle: hero_image
+mode: default
+content: {  }
+hidden:
+  field_impact_hero_image: true
+  field_impact_hero_image_desc: true
