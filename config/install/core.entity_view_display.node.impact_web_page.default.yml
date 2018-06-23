@@ -3,9 +3,10 @@ status: true
 dependencies:
   config:
     - field.field.node.impact_web_page.body
-    - field.field.node.impact_web_page.field_impact_hero_image
+    - field.field.node.impact_web_page.field_impact_block_type
     - node.type.impact_web_page
   module:
+    - entity_reference_revisions
     - text
     - user
 id: node.impact_web_page.default
@@ -16,22 +17,18 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_impact_hero_image:
-    type: entity_reference_entity_view
-    weight: 1
+  field_impact_block_type:
+    type: entity_reference_revisions_entity_view
+    weight: 0
     label: hidden
     settings:
       view_mode: default
-      link: false
+      link: ''
     third_party_settings: {  }
     region: content
-  links:
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-hidden: {  }
+hidden:
+  links: true

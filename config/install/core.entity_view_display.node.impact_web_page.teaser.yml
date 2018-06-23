@@ -4,7 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.impact_web_page.body
-    - field.field.node.impact_web_page.field_impact_hero_image
+    - field.field.node.impact_web_page.field_impact_block_type
     - node.type.impact_web_page
   module:
     - text
@@ -26,4 +26,4 @@ content:
     weight: 100
     region: content
 hidden:
-  field_impact_hero_image: true
+  field_impact_block_type: true

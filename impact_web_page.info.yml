@@ -8,16 +8,17 @@ dependencies:
   - dropzonejs
   - dropzonejs_eb_widget
   - entity_browser
+  - entity_reference_revisions
   - field
   - file
   - image
   - image_widget_crop
   - inline_entity_form
-  - libraries
   - media
   - media_entity_browser
   - menu_ui
   - node
+  - paragraphs
   - path
   - responsive_image
   - text
