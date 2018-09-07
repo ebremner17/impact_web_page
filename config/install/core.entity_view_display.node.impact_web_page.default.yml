@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.impact_web_page.body
     - field.field.node.impact_web_page.field_impact_block_type
     - node.type.impact_web_page
   module:
@@ -22,4 +23,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  body: true
   links: true

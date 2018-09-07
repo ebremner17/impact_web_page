@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_impact_text
+    - paragraphs.paragraphs_type.para_impact_text
+  module:
+    - text
+id: paragraph.para_impact_text.field_impact_text
+field_name: field_impact_text
+entity_type: paragraph
+bundle: para_impact_text
+label: Text
+description: 'Enter text to be displayed.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

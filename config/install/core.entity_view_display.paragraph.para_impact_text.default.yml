@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.para_impact_text.field_impact_text
+    - paragraphs.paragraphs_type.para_impact_text
+  module:
+    - text
+id: paragraph.para_impact_text.default
+targetEntityType: paragraph
+bundle: para_impact_text
+mode: default
+content:
+  field_impact_text:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

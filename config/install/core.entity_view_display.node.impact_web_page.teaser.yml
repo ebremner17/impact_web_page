@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.impact_web_page.body
     - field.field.node.impact_web_page.field_impact_block_type
     - node.type.impact_web_page
   module:
@@ -16,4 +17,5 @@ content:
     weight: 100
     region: content
 hidden:
+  body: true
   field_impact_block_type: true
