@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: impact_para_video
+label: Video
+icon_uuid: null
+description: 'Add a video'
+behavior_plugins: {  }

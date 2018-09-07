@@ -2,27 +2,16 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.impact_web_page.body
     - field.field.node.impact_web_page.field_impact_block_type
     - node.type.impact_web_page
   module:
     - paragraphs
     - path
-    - text
 id: node.impact_web_page.default
 targetEntityType: node
 bundle: impact_web_page
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 3
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-    third_party_settings: {  }
-    region: content
   field_impact_block_type:
     type: entity_reference_paragraphs
     weight: 2

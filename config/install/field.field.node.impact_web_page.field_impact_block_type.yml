@@ -5,6 +5,8 @@ dependencies:
     - field.storage.node.field_impact_block_type
     - node.type.impact_web_page
     - paragraphs.paragraphs_type.hero_image
+    - paragraphs.paragraphs_type.impact_para_video
+    - paragraphs.paragraphs_type.para_impact_text
   module:
     - entity_reference_revisions
 id: node.impact_web_page.field_impact_block_type
@@ -23,8 +25,16 @@ settings:
     negate: 0
     target_bundles:
       hero_image: hero_image
+      impact_para_video: impact_para_video
+      para_impact_text: para_impact_text
     target_bundles_drag_drop:
       hero_image:
         enabled: true
         weight: 2
+      impact_para_video:
+        enabled: true
+        weight: 5
+      para_impact_text:
+        enabled: true
+        weight: 6
 field_type: entity_reference_revisions
